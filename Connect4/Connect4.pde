@@ -176,7 +176,9 @@ void mousePressed(){
   }
   
   if(start == 3){
-    setup();
-    if(mouseX > 215 && mouseX < 590 && mouseY > 325 && mouseY < 400) start = 0;
+    if(mouseX > 215 && mouseX < 590 && mouseY > 325 && mouseY < 400){
+      setup();
+      start = 0;
+    }
   }
 }
